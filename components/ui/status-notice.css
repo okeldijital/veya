@@ -1,0 +1,14 @@
+.status-notice { display: flex; gap: 12px; align-items: flex-start; width: 100%; padding: 14px 16px; border: 1px solid; border-left-width: 6px; border-radius: 14px; text-align: left; line-height: 1.45; }
+.status-notice__icon { flex: none; display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 999px; font-weight: 800; font-size: 14px; color: #fff; }
+.status-notice__body { min-width: 0; }
+.status-notice__title { margin: 0; font-weight: 700; font-size: 15px; }
+.status-notice__message { margin-top: 2px; font-size: 14px; }
+.status-notice__message > p { margin: 0; }
+.status-notice--info { background: #eef4fb; border-color: #1d4f91; color: #123459; }
+.status-notice--info .status-notice__icon { background: #1d4f91; }
+.status-notice--success { background: #edf7f1; border-color: #246b45; color: #17462d; }
+.status-notice--success .status-notice__icon { background: #246b45; }
+.status-notice--warning { background: #fdf6e7; border-color: #8a5a00; color: #5c3c00; }
+.status-notice--warning .status-notice__icon { background: #8a5a00; }
+.status-notice--error { background: #fdf0f0; border-color: #9b1c1c; color: #6e1414; }
+.status-notice--error .status-notice__icon { background: #9b1c1c; }
